@@ -1,8 +1,9 @@
 import requests
 
+
 def scrap_nba_teams():
-    TARGET_URL = "https://stats.nba.com/stats/leaguedashteamstats?Conference=&DateFrom=&DateTo=&Division=&GameScope=&GameSegment=&Height=&ISTRound=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2004-05&SeasonSegment=&SeasonType=Regular%20Season&ShotClockRange=&StarterBench=&TeamID=0&TwoWay=0&VsConference=&VsDivision="
-    #TARGET_URL = "https://ender.gg"
+    # TARGET_URL = "https://stats.nba.com/stats/leaguedashteamstats?Conference=&DateFrom=&DateTo=&Division=&GameScope=&GameSegment=&Height=&ISTRound=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2004-05&SeasonSegment=&SeasonType=Regular%20Season&ShotClockRange=&StarterBench=&TeamID=0&TwoWay=0&VsConference=&VsDivision="
+    TARGET_URL = "htps://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&ISTRound=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=Totals&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2023-24&SeasonSegment=&SeasonType=Regular%20Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight="
 
     # SET COOKIE HEADERS
     headers_text = """
@@ -31,19 +32,24 @@ sec-ch-ua-platform: "Linux"
 
     print(headers)
 
-
     # get response, abort after 10s
     response = requests.get(TARGET_URL, headers=headers, timeout=10)
 
-
     if response.status_code == 200:
         print("Response:", response.text)
+        json_data = response.json()
+        print(json_data)
+
+        # write into data/teams.json
+        with open("data/teams.json", "w") as f:
+            f.write(response.text)
+
+        print(" === OK")
+
     else:
         print("Error: " + str(response.status_code))
 
-# Press the green button in the gutter to run the script.
+
 if __name__ == '__main__':
     scrap_nba_teams()
-
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    print("aaaaaaaaaaaaaaaaaaa")
