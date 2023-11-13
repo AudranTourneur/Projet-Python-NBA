@@ -23,7 +23,9 @@ if __name__ == '__main__':
         "https://raw.githubusercontent.com/python-visualization/folium/master/examples/data"
     )
 
-    fig = px.choropleth(df,
+    # Ignore United States 
+    df_stats = df[df['country'] != 'United States']
+    fig = px.choropleth(df_stats,
                         locations="country",  # "iso_alpha",
                         locationmode="country names",  # "ISO-3",
                         geojson=f"{url}/world-countries.json",
