@@ -4,14 +4,15 @@ from sklearn import linear_model, metrics
 from player_data import create_players_dataset
 from sklearn.model_selection import train_test_split
 
+
 def compare_test_and_prediction(y_test, y_pred):
     # We are going to compare the actual values of y_test with the predicted values of y_pred
     # in a loop
     # Note: the indexes might not match
 
     # Let's compare the number of correct predictions with the total number of predictions
-    # We will consider a prediction correct if the difference between the actual value and the predicted value is less than 0.5
-    tolerance = 0.1
+    # We will consider a prediction correct if the difference between the actual value and the predicted value is less than 20%
+    tolerance = 0.2
     correct = 0
     # iterate over y_test the Pandas way
     pred_index = 0
@@ -21,10 +22,10 @@ def compare_test_and_prediction(y_test, y_pred):
             correct += 1
         pred_index += 1
 
-
     print("Correct predictions =", correct)
     print("Total predictions =", len(y_test))
     print("Accuracy =", correct / len(y_test))
+
 
 def train_model():
     df = create_players_dataset()
@@ -40,11 +41,14 @@ def train_model():
     # drop POSITION
     df = df.drop('POSITION', axis=1)
 
-    df = df[['WinRate', 'FGM', 'PF']]
+    # print columns
+    print(df.columns)
 
-    print(df)
+    x_input_data = df[['FGM', 'AST', 'REB', 'FGA', 'PF']]
+    y_output = df['WinRate']
 
-    X_train, X_test, y_train, y_test = train_test_split(df, df['WinRate'], test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(x_input_data, y_output, test_size=0.2,
+                                                        random_state=42)
 
     print("X_train", X_train)
 
@@ -80,10 +84,6 @@ def train_model():
     plt.xlabel("Actual values")
     plt.ylabel("Predicted values")
     plt.savefig('scatter_ai.png')
-
-
-
-
 
 
 train_model()
