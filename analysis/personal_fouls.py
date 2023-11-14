@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
     print('uwu ?')
 
-    reduced_df = df[["FP", "FGM", "AST", "REB", "FGA", "POSITION"]]
+    reduced_df = df[["FGM", "AST", "REB", "FGA", "PF", "POSITION"]]
 
     dataset = create_players_dataset()
 
