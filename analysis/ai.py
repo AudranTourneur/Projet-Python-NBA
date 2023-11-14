@@ -12,13 +12,13 @@ def compare_test_and_prediction(y_test, y_pred):
 
     # Let's compare the number of correct predictions with the total number of predictions
     # We will consider a prediction correct if the difference between the actual value and the predicted value is less than 20%
-    tolerance = 0.2
+    tolerance = 0.1
     correct = 0
     # iterate over y_test the Pandas way
     pred_index = 0
     for index, value in y_test.items():
         print("Actual value =", value, "Predicted value =", y_pred[pred_index])
-        if abs(value - y_pred[pred_index]) < tolerance:
+        if abs(value - y_pred[pred_index]) <= tolerance:
             correct += 1
         pred_index += 1
 
