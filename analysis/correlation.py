@@ -32,7 +32,12 @@ if __name__ == '__main__':
     def giga_graph():
         plt.clf()
         sns.pairplot(data=reduced_df, hue="POSITION")
-        plt.savefig('lots_of_correlations.png')
+        plt.savefig('correlation_pairplot.png')
+
+        # let's do the same with a heatmap
+        plt.clf()
+        sns.heatmap(reduced_df.corr(), annot=True)
+        plt.savefig('correlation_heatmap.png')
 
 
     giga_graph()
