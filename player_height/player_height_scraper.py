@@ -25,7 +25,7 @@ def foot_to_centimeter(foot):
     foot = int(foot[0]) * 30.48 + int(foot[1]) * 2.54
     return round(foot, 2)
 
-with open('../player-height/stats.json', 'w') as file:
+with open('/stats.json', 'w') as file:
     # Ad [
     file.write('[\n')
     # Get player ID and Height
