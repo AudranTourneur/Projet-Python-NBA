@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5ea9de-268a-45e5-ab95-2df0e6245697" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Projet-Python-NBA.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis/giga_graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/giga_graph.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis/personal_fouls.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/personal_fouls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player-map/player-map-scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player-map/player-map-scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player-map/player-map-stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player-map/player-map-stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player-map/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player-map/stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player_height/player_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player_height/player_height_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player_height/player_height_scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player_height/player_height_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player_height/player_height_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player_height/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/player_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player_data.py" afterDir="false" />
     </list>
     <list id="2ce82235-74cb-4acd-8236-fffa67380da8" name="Changes by lecoq" comment="" />
     <option name="SHOW_DIALOG" value="false" />

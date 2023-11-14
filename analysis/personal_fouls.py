@@ -24,14 +24,14 @@ if __name__ == '__main__':
 
     print('uwu ?')
 
-    reduced_df = df[["FGM", "AST", "REB", "FGA", "POSITION"]]
+    reduced_df = df[["FP", "FGM", "AST", "REB", "FGA", "POSITION"]]
 
     dataset = create_players_dataset()
 
 
     def giga_graph():
         plt.clf()
-        sns.pairplot(data=dataset, hue="POSITION")
+        sns.pairplot(data=reduced_df, hue="POSITION")
         plt.savefig('giga_graph.png')
 
 
