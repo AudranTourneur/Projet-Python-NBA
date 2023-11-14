@@ -20,7 +20,7 @@ script = soup.find('script', id='__NEXT_DATA__')
 # Get players data
 players_data = json.loads(script.contents[0])['props']['pageProps']['players']
 
-with open('../player-map/stats.json', 'w') as file:
+with open('stats.json', 'w') as file:
     # Ad [
     file.write('[\n')
     # Get player ID and Height

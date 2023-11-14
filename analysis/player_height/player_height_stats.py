@@ -1,9 +1,7 @@
-import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import json
 
-from player_data import create_players_dataset
+from analysis.player_data import create_players_dataset
 
 
 def run():
@@ -114,3 +112,4 @@ def run():
 
 if __name__ == '__main__':
     run()
+player-height-scraper

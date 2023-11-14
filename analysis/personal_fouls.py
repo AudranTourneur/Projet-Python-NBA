@@ -1,9 +1,9 @@
 import pandas as pd
 import json
 import seaborn as sns
-from pandas import DataFrame
 import matplotlib.pyplot as plt
 
+from player_data import create_players_dataset
 
 if __name__ == '__main__':
     json_data = open('../data/players_2022-23.json').read()
@@ -12,7 +12,7 @@ if __name__ == '__main__':
     headers = data['resultSets'][0]['headers']
     actual_data = data['resultSets'][0]['rowSet']
 
-    df = pd.DataFrame(actual_data, columns=headers)
+    df = create_players_dataset()
 
     print('print all columns')
     print(df.columns)
@@ -24,14 +24,16 @@ if __name__ == '__main__':
 
     print('uwu ?')
 
-    #reduced_df = df[['W', 'PF', 'FG3M', 'FG3A']]
-    reduced_df = df[["FGM", "AST", "REB", "FGA"]]
+    reduced_df = df[["FGM", "AST", "REB", "FGA", "POSITION"]]
+
+    dataset = create_players_dataset()
 
 
     def giga_graph():
         plt.clf()
-        sns.pairplot(data=reduced_df)
+        sns.pairplot(data=dataset, hue="POSITION")
         plt.savefig('giga_graph.png')
+
 
     giga_graph()
     print('end')

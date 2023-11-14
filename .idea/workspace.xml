@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5ea9de-268a-45e5-ab95-2df0e6245697" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/player_height/player_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/player_height/player_height_stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Projet-Python-NBA.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player-height/player-height-scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/player_height/player_height_scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player-height/player-height-stats.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player-height/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/player_height/stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/giga_graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/giga_graph.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/personal_fouls.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/personal_fouls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player-map/player-map-scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player-map/player-map-scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player-map/player-map-stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player-map/player-map-stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player-map/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player-map/stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_height/player_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_height/player_height_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player_height/player_height_scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_height/player_height_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player_height/player_height_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_height/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/stats.json" afterDir="false" />
     </list>
     <list id="2ce82235-74cb-4acd-8236-fffa67380da8" name="Changes by lecoq" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/audran/Code/Projet-Python-NBA&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "last_opened_file_path": "/home/audran/Code/Projet-Python-NBA"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/analysis" />
       <recent name="$PROJECT_DIR$/scraping" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.player-height-stats">
+  <component name="RunManager" selected="Python.personal_fouls">
     <configuration name="personal_fouls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Projet-Python-NBA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,8 +181,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.player-height-stats" />
         <item itemvalue="Python.personal_fouls" />
+        <item itemvalue="Python.player-height-stats" />
         <item itemvalue="Python.worldmap" />
         <item itemvalue="Python.teams_analysis" />
         <item itemvalue="Python tests.Python tests in teams_analysis.py" />
