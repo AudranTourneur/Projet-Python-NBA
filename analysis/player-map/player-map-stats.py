@@ -1,7 +1,7 @@
 import plotly.express as px
 import pandas as pd
 
-df = pd.read_json('../player-map/stats.json')
+df = pd.read_json('stats.json')
 df.columns = ['PLAYER_ID', 'COUNTRY']
 
 # Change USA to United States

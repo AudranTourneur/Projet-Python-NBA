@@ -5,7 +5,7 @@ import pandas as pd
 
 def create_players_dataset():
     # Read in the stats.json file
-    stats = pd.read_json('/stats.json')
+    stats = pd.read_json('stats.json')
     # Rename the columns
     stats.columns = ['PLAYER_ID', 'HEIGHT', 'POSITION']
 
@@ -33,7 +33,7 @@ def create_players_dataset():
     merged = pd.merge(stats, df, on='PLAYER_ID')
 
     # Keep only PLAYER_ID, HEIGHT, POSITION, WinRate, AvgPointsPerGame
-    merged = merged[['PLAYER_ID', 'HEIGHT', 'POSITION', 'WinRate', 'AvgPointsPerGame']]
+    merged = merged[['PLAYER_ID', 'HEIGHT', 'POSITION', 'WinRate', 'AvgPointsPerGame', "FGM", "AST", "REB", "FGA", "PF"]]
     print(merged)
 
     return merged
