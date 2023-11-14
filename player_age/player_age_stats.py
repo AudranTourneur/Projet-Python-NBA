@@ -26,4 +26,3 @@ plt.suptitle("")
 plt.xlabel("Age")
 plt.ylabel("Points Per Game")
 plt.show()
-    
