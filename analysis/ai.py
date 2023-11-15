@@ -86,4 +86,5 @@ def train_model():
     plt.savefig('scatter_ai.png')
 
 
-train_model()
+if __name__ == '__main__':
+    train_model()

@@ -34,7 +34,13 @@ def create_players_dataset():
 
     # Keep only PLAYER_ID, HEIGHT, POSITION, WinRate, AvgPointsPerGame
     merged = merged[
-        ['PLAYER_ID', 'HEIGHT', 'POSITION', 'WinRate', 'AvgPointsPerGame', "FGM", "AST", "REB", "FGA", "PF"]]
+        ['PLAYER_ID', 'HEIGHT', 'POSITION', 'WinRate', 'AvgPointsPerGame', "FGM", "AST", "REB", "FGA", "PF", "FG_PCT", "TOV", "OREB", "FT_PCT"]]
     # print(merged)
 
+    print("merged columns = ", merged.columns)
+
     return merged
+
+
+if __name__ == '__main__':
+    print(create_players_dataset())

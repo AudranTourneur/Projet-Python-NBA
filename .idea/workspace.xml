@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5ea9de-268a-45e5-ab95-2df0e6245697" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/analysis/stats_map.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis/Data_Report.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Data_Report.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/ai.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/ai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/correlation_heatmap.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/correlation_heatmap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/correlation_pairplot.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/correlation_pairplot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/player_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/scatter_ai.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/scatter_ai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usa_players_pos/country_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/country_stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usa_players_pos/pos_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/pos_stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usa_players_pos/usa_players_pos_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/usa_players_pos/usa_players_pos_stats.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,18 +62,46 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/audran/Code/Projet-Python-NBA&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/audran/Code/Projet-Python-NBA/analysis&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/analysis" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/analysis" />
       <recent name="$PROJECT_DIR$/scraping" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.personal_fouls">
+  <component name="RunManager" selected="Python.player_data">
+    <configuration name="ai" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Projet-Python-NBA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis/ai.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="personal_fouls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Projet-Python-NBA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,6 +146,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="player_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Projet-Python-NBA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis/player_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scraper" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Projet-Python-NBA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,28 +182,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraping/scraper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="teams_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Projet-Python-NBA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis/teams_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,28 +212,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in teams_analysis.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Projet-Python-NBA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/analysis/teams_analysis.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.player_data" />
+        <item itemvalue="Python.ai" />
         <item itemvalue="Python.personal_fouls" />
         <item itemvalue="Python.player-height-stats" />
         <item itemvalue="Python.worldmap" />
-        <item itemvalue="Python.teams_analysis" />
-        <item itemvalue="Python tests.Python tests in teams_analysis.py" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +237,8 @@
       <workItem from="1699975431250" duration="172000" />
       <workItem from="1699975764446" duration="297000" />
       <workItem from="1699976540643" duration="248000" />
+      <workItem from="1700053778068" duration="3108000" />
+      <workItem from="1700056912075" duration="709000" />
     </task>
     <servers />
   </component>
@@ -250,5 +274,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Projet_Python_NBA$main.coverage" NAME="main Coverage Results" MODIFIED="1699878840832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Projet_Python_NBA$player_data.coverage" NAME="player_data Coverage Results" MODIFIED="1700056865566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysis" />
+    <SUITE FILE_PATH="coverage/Projet_Python_NBA$ai.coverage" NAME="ai Coverage Results" MODIFIED="1700056846051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysis" />
   </component>
 </project>
