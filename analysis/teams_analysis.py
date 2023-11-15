@@ -78,34 +78,42 @@ def run():
 
 
 
+def get_all_teams_available() -> [str]:
+    all_teams: [str] = []
+
+    first_year = 2000
+    last_year = 2022
+
+    for year in [first_year, last_year]:
+        df = build_season_dataframe(year)
+        # let's get all teams this year
+
+        for index, row in df.iterrows():
+            team_name = row['TEAM_NAME']
+            all_teams.append(team_name)
+
+    all_teams = list(dict.fromkeys(all_teams))
+
+    return all_teams
+
+def resolve_team_from_user_input(all_teams: [str]) -> str:
+    team_to_track = input("Please enter a team you wish to track:")
+    while team_to_track not in all_teams:
+        print("The team you entered is not available, please try again")
+        team_to_track = input("Please enter a team you wish to track:")
+
+    return team_to_track
+
+def interactive_team_tracking():
+    all_teams = get_all_teams_available()
+    print("The following teams are available:")
+    print("\n".join(all_teams))
+    team_to_track = resolve_team_from_user_input(all_teams)
 
 
-def test_timeseries():
-    # let's build a test timeseries and plot it
-    # we will have 3 teams: A, B, C
-    # A will be 1st for 3 seasons, then 2nd for 2 seasons, then 3rd for 1 season
-    # B will be 2nd for 3 seasons, then 3rd for 2 seasons, then 1st for 1 season
-    # C will be 3rd for 3 seasons, then 1st for 2 seasons, then 2nd for 1 season
-    # The index will be the season (2000, 2001, 2002, etc.)
 
-    df = pd.DataFrame()
-    df['A'] = [1, 1, 1, 2, 2, 3]
-    df['B'] = [2, 2, 2, 3, 3, 1]
-    df['C'] = [3, 3, 3, 1, 1, 2]
-    df.index = [2000, 2001, 2002, 2003, 2004, 2005]
-    print(df)
 
-    # Let's plot this timeseries
-    # plot into timeseries.png
-    fig = df.plot(figsize=(10, 5), title='Rank of teams A, B, C over time').get_figure()
-    fig.savefig('timeseries.png')
 
 
 if __name__ == '__main__':
-    # test_timeseries()
-    run()
-    #print(get_eligible_teams())
-
-
-def plot_test():
-    pass
+    interactive_team_tracking()
