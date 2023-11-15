@@ -6,7 +6,80 @@
   <component name="ChangeListManager">
     <list default="true" id="5b5ea9de-268a-45e5-ab95-2df0e6245697" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/teams_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/teams_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/Data_Report.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Data_Report.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/ai.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/correlation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/correlation_heatmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/correlation_pairplot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/country_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/players_country.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/lots_of_correlations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/pf_wins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/player-map/player-map-scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/player_map_scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/player-map/player-map-stats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/player-map/stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/player_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/player_height/player_height_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/player_height_scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/player_height/player_height_stats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/player_height_hist/player_height_hist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/pos_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/players_height_position.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/scatter_ai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/stats_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/teams_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/timeseries.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/worldmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/worldmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/general_players.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2000-01.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2001-02.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2002-03.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2003-04.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2004-05.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2005-06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2006-07.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2007-08.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2008-09.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2009-10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2010-11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2011-12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2012-13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2013-14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2014-15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2015-16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2016-17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2017-18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2018-19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2019-20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2020-21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2021-22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/players_2022-23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2000-01.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2000-01.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2001-02.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2001-02.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2002-03.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2002-03.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2003-04.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2003-04.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2004-05.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2004-05.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2005-06.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2005-06.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2006-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2006-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2007-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2007-08.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2008-09.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2008-09.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2009-10.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2009-10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2010-11.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2010-11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2011-12.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2011-12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2012-13.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2012-13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2013-14.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2013-14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2014-15.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2014-15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2015-16.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2015-16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2016-17.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2016-17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2017-18.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2017-18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2018-19.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2018-19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2019-20.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2019-20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2020-21.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2020-21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2021-22.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2021-22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_2022-23.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams/teams_2022-23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_age/player_age_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/player_age/player_age_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usa_players_pos/usa_players_pos_stats.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +139,10 @@
       <recent name="$PROJECT_DIR$/analysis" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/analysis" />
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/scraping" />
+      <recent name="$PROJECT_DIR$/data/teams" />
+      <recent name="$PROJECT_DIR$/analysis" />
     </key>
   </component>
   <component name="RunManager" selected="Python.teams_analysis">
@@ -229,7 +304,9 @@
       <workItem from="1699975764446" duration="297000" />
       <workItem from="1699976540643" duration="248000" />
       <workItem from="1700053778068" duration="3108000" />
-      <workItem from="1700056912075" duration="2866000" />
+      <workItem from="1700056912075" duration="5621000" />
+      <workItem from="1700062565604" duration="81000" />
+      <workItem from="1700062667718" duration="1542000" />
     </task>
     <servers />
   </component>
@@ -247,25 +324,9 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/scraping/scraper.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/scraping/scraper.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Projet_Python_NBA$main.coverage" NAME="main Coverage Results" MODIFIED="1699878840832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Projet_Python_NBA$teams_analysis.coverage" NAME="teams_analysis Coverage Results" MODIFIED="1700059715502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysis" />
+    <SUITE FILE_PATH="coverage/Projet_Python_NBA$teams_analysis.coverage" NAME="teams_analysis Coverage Results" MODIFIED="1700060405354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysis" />
     <SUITE FILE_PATH="coverage/Projet_Python_NBA$player_data.coverage" NAME="player_data Coverage Results" MODIFIED="1700056865566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysis" />
     <SUITE FILE_PATH="coverage/Projet_Python_NBA$ai.coverage" NAME="ai Coverage Results" MODIFIED="1700056846051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysis" />
   </component>

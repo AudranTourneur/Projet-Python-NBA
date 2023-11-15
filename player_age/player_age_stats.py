@@ -4,7 +4,7 @@ import json
 
 # Read in the data
 
-json_data = open('../data/players.json').read()
+json_data = open('../data/general_players.json').read()
 data = json.loads(json_data)
 
 headers = data['resultSets'][0]['headers']
