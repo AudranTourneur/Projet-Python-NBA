@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5ea9de-268a-45e5-ab95-2df0e6245697" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/analysis/Data_Report.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Data_Report.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/images/correlation_heatmap.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/images/correlation_heatmap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/images/correlation_pairplot.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/images/correlation_pairplot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/images/scatter_ai.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/images/scatter_ai.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/images/timeseries.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/images/timeseries.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
