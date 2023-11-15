@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5ea9de-268a-45e5-ab95-2df0e6245697" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/analysis/stats_map.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis/Data_Report.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Data_Report.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/ai.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/ai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/correlation_heatmap.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/correlation_heatmap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/correlation_pairplot.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/correlation_pairplot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/player_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/player_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/scatter_ai.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/scatter_ai.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usa_players_pos/country_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/country_stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usa_players_pos/pos_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/pos_stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usa_players_pos/usa_players_pos_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/usa_players_pos/usa_players_pos_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/timeseries.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/timeseries.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +230,7 @@
       <workItem from="1699975764446" duration="297000" />
       <workItem from="1699976540643" duration="248000" />
       <workItem from="1700053778068" duration="3108000" />
-      <workItem from="1700056912075" duration="709000" />
+      <workItem from="1700056912075" duration="1973000" />
     </task>
     <servers />
   </component>
